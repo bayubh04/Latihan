@@ -10,6 +10,8 @@ export default function UsersPage() {
         })
     }, [])
 
+
+    
     return <>
         <pre>
             {JSON.stringify(data, null, 2)}
